@@ -10,6 +10,7 @@ namespace Tyuiu.BabenkoIV.Sprint1.Task2.V5
             Console.WriteLine("Введите строну куба");
             x = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("площадь поверхности куба " + ds.CalculateSideSquare(x));
+            Console.ReadLine();
 
         }
     }
