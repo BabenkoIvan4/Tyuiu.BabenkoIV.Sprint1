@@ -5,9 +5,9 @@ namespace Tyuiu.BabenkoIV.Sprint1.Task7.V13.Lib
     {
         public double Calculate(double x, double y)
         {
-            double z = Math.Pow(y,2) - Math.Pow(Math.Cos(x),2) + 10;
-            double w = Math.Pow(x, 2) - Math.Pow(Math.Sin(y), 2) + 12;
-            return Math.Round(z / w);
+            double z = Math.Pow(y,2) - Math.Cos(Math.Pow(x,2)) + 10;
+            double w = Math.Pow(x, 2) - Math.Sin(Math.Pow(y, 2)) + 12; 
+            return Math.Round(z / w,3);
         }
     }
 }
